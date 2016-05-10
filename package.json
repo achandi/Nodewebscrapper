@@ -1,0 +1,25 @@
+{
+  "name": "nodewebscrapper",
+  "version": "1.0.0",
+  "description": "create a node module to parse a remote webpage",
+  "main": "scrape.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/achandi/Nodewebscrapper.git"
+  },
+  "author": "Ajit Chandi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/achandi/Nodewebscrapper/issues"
+  },
+  "homepage": "https://github.com/achandi/Nodewebscrapper#readme",
+  "dependencies": {
+    "cheerio": "^0.20.0",
+    "json2csv": "^3.4.1",
+    "request": "^2.72.0",
+    "request-promise": "^3.0.0"
+  }
+}
